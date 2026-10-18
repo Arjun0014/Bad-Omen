@@ -1,0 +1,383 @@
+{
+ "Idle": {
+  "frames": [
+   1,
+   251
+  ],
+  "duration": 8.333,
+  "drift": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "mode": "none"
+ },
+ "Walk": {
+  "frames": [
+   1,
+   32
+  ],
+  "duration": 1.033,
+  "drift": [
+   0.0,
+   -1.772,
+   0.0
+  ],
+  "mode": "trend"
+ },
+ "Run": {
+  "frames": [
+   1,
+   22
+  ],
+  "duration": 0.7,
+  "drift": [
+   0.0,
+   -3.149,
+   0.0
+  ],
+  "mode": "trend"
+ },
+ "Sprint": {
+  "frames": [
+   1,
+   18
+  ],
+  "duration": 0.567,
+  "drift": [
+   0.0,
+   -3.29,
+   0.0
+  ],
+  "mode": "trend"
+ },
+ "SneakWalk": {
+  "frames": [
+   1,
+   35
+  ],
+  "duration": 1.133,
+  "drift": [
+   0.0,
+   -2.062,
+   0.0
+  ],
+  "mode": "trend"
+ },
+ "CrouchIdle": {
+  "frames": [
+   1,
+   42
+  ],
+  "duration": 1.367,
+  "drift": [
+   -0.0,
+   0.0,
+   -0.0
+  ],
+  "mode": "none"
+ },
+ "Angry": {
+  "frames": [
+   1,
+   67
+  ],
+  "duration": 2.2,
+  "drift": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "mode": "full"
+ },
+ "HeadShake": {
+  "frames": [
+   1,
+   78
+  ],
+  "duration": 2.567,
+  "drift": [
+   -0.0,
+   0.0,
+   -0.0
+  ],
+  "mode": "full"
+ },
+ "LookAround": {
+  "frames": [
+   1,
+   71
+  ],
+  "duration": 2.333,
+  "drift": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "mode": "full"
+ },
+ "Cocky": {
+  "frames": [
+   1,
+   88
+  ],
+  "duration": 2.9,
+  "drift": [
+   0.0,
+   -0.0,
+   -0.0
+  ],
+  "mode": "full"
+ },
+ "Sigh": {
+  "frames": [
+   1,
+   91
+  ],
+  "duration": 3.0,
+  "drift": [
+   -0.0,
+   -0.0,
+   0.0
+  ],
+  "mode": "full"
+ },
+ "Dismiss": {
+  "frames": [
+   1,
+   99
+  ],
+  "duration": 3.267,
+  "drift": [
+   -0.0,
+   0.0,
+   -0.0
+  ],
+  "mode": "full"
+ },
+ "ThrowObject": {
+  "frames": [
+   1,
+   147
+  ],
+  "duration": 4.867,
+  "drift": [
+   0.0,
+   -0.0,
+   0.0
+  ],
+  "mode": "full",
+  "release": 2.367,
+  "peakSpeed": 10.69,
+  "lowest": 1.0
+ },
+ "Throwing": {
+  "frames": [
+   1,
+   168
+  ],
+  "duration": 5.567,
+  "drift": [
+   0.061,
+   -0.831,
+   -0.047
+  ],
+  "mode": "full",
+  "release": 1.6,
+  "peakSpeed": 5.42,
+  "lowest": 2.733
+ },
+ "PickUp": {
+  "frames": [
+   1,
+   37
+  ],
+  "duration": 1.2,
+  "drift": [
+   0.0,
+   -5.483,
+   0.0
+  ],
+  "mode": "full",
+  "release": 0.567,
+  "peakSpeed": 5.33,
+  "lowest": 0.7
+ },
+ "Swing": {
+  "frames": [
+   1,
+   70
+  ],
+  "duration": 2.3,
+  "drift": [
+   -0.0,
+   -0.0,
+   -0.0
+  ],
+  "mode": "full",
+  "release": 0.767,
+  "peakSpeed": 8.96,
+  "lowest": 1.6
+ },
+ "Swing2": {
+  "frames": [
+   1,
+   67
+  ],
+  "duration": 2.2,
+  "drift": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "mode": "full",
+  "release": 0.467,
+  "peakSpeed": 8.37,
+  "lowest": 0.533
+ },
+ "Cast": {
+  "frames": [
+   1,
+   69
+  ],
+  "duration": 2.267,
+  "drift": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "mode": "full",
+  "release": 0.567,
+  "peakSpeed": 7.71,
+  "lowest": 0.4
+ },
+ "Slam": {
+  "frames": [
+   1,
+   82
+  ],
+  "duration": 2.7,
+  "drift": [
+   0.0,
+   -0.0,
+   0.0
+  ],
+  "mode": "full",
+  "release": 1.1,
+  "peakSpeed": 12.45,
+  "lowest": 2.033
+ },
+ "BigCast": {
+  "frames": [
+   1,
+   66
+  ],
+  "duration": 2.167,
+  "drift": [
+   0.0,
+   -0.0,
+   0.0
+  ],
+  "mode": "full",
+  "release": 0.6,
+  "peakSpeed": 7.34,
+  "lowest": 0.7
+ },
+ "Tantrum": {
+  "frames": [
+   1,
+   90
+  ],
+  "duration": 2.967,
+  "drift": [
+   0.0,
+   0.0,
+   -0.0
+  ],
+  "mode": "full",
+  "release": 1.233,
+  "peakSpeed": 11.95,
+  "lowest": 1.4
+ },
+ "Tantrum2": {
+  "frames": [
+   1,
+   99
+  ],
+  "duration": 3.267,
+  "drift": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "mode": "full",
+  "release": 1.767,
+  "peakSpeed": 9.12,
+  "lowest": 1.467
+ },
+ "HitReact": {
+  "frames": [
+   1,
+   42
+  ],
+  "duration": 1.367,
+  "drift": [
+   -0.0,
+   1.157,
+   0.0
+  ],
+  "mode": "full"
+ },
+ "Flinch": {
+  "frames": [
+   1,
+   37
+  ],
+  "duration": 1.2,
+  "drift": [
+   0.0,
+   -0.0,
+   0.0
+  ],
+  "mode": "full"
+ },
+ "Stunned": {
+  "frames": [
+   1,
+   61
+  ],
+  "duration": 2.0,
+  "drift": [
+   0.009,
+   -0.046,
+   0.111
+  ],
+  "mode": "full"
+ },
+ "RunToStop": {
+  "frames": [
+   1,
+   28
+  ],
+  "duration": 0.9,
+  "drift": [
+   0.016,
+   -0.881,
+   0.056
+  ],
+  "mode": "full"
+ },
+ "CoverHead": {
+  "frames": [
+   1,
+   41
+  ],
+  "duration": 1.333,
+  "drift": [
+   0.0,
+   -0.0,
+   -0.0
+  ],
+  "mode": "full"
+ }
+}

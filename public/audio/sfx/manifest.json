@@ -1,0 +1,100 @@
+{
+ "meow_short": {
+  "file": "meow_short.mp3",
+  "duration": 1,
+  "hash": "ee441e3fea81",
+  "source": "ElevenLabs sound generation",
+  "prompt": "A single short friendly domestic cat meow, close microphone, clean, no background"
+ },
+ "meow_taunt": {
+  "file": "meow_taunt.mp3",
+  "duration": 1.36,
+  "hash": "cffddfcac3f3",
+  "source": "ElevenLabs sound generation",
+  "prompt": "A sassy drawn-out domestic cat meow, mischievous and cheeky, \"mrrreow\", close mic, no background noise"
+ },
+ "meow_annoyed": {
+  "file": "meow_annoyed.mp3",
+  "duration": 1.28,
+  "hash": "e79f634deff0",
+  "source": "ElevenLabs sound generation",
+  "prompt": "An annoyed cat yowl and short hiss, cartoonish, close mic, no background"
+ },
+ "meow_chirp": {
+  "file": "meow_chirp.mp3",
+  "duration": 0.8,
+  "hash": "b381dc5b1297",
+  "source": "ElevenLabs sound generation",
+  "prompt": "A happy cat chirp and trill, \"brrrp\", quick, close mic, clean"
+ },
+ "glass_crash": {
+  "file": "glass_crash.mp3",
+  "duration": 1.6,
+  "hash": "403812d70ebf",
+  "source": "ElevenLabs sound generation",
+  "prompt": "A glass window shattering into many pieces, sharp crash with tinkling shards falling on a wooden floor"
+ },
+ "wood_crash": {
+  "file": "wood_crash.mp3",
+  "duration": 1.76,
+  "hash": "e43716a51a3f",
+  "source": "ElevenLabs sound generation",
+  "prompt": "Heavy wooden furniture breaking apart, loud splintering crack and thud of planks on a wooden floor"
+ },
+ "chandelier": {
+  "file": "chandelier.mp3",
+  "duration": 3,
+  "hash": "79985a8e2d88",
+  "source": "ElevenLabs sound generation",
+  "prompt": "A huge chandelier falls and smashes onto a wooden dining table, metal clanging, glass and crystals shattering, wood breaking"
+ },
+ "collapse": {
+  "file": "collapse.mp3",
+  "duration": 4,
+  "hash": "052368c65677",
+  "source": "ElevenLabs sound generation",
+  "prompt": "Old wooden house roof collapsing, massive timber cracking, beams falling, rumble and dust, cinematic"
+ },
+ "fire_whoosh": {
+  "file": "fire_whoosh.mp3",
+  "duration": 2.2,
+  "hash": "d0135b7b0b35",
+  "source": "ElevenLabs sound generation",
+  "prompt": "Fire suddenly igniting with a big whoosh, then crackling flames"
+ },
+ "thunder": {
+  "file": "thunder.mp3",
+  "duration": 4,
+  "hash": "92254e647686",
+  "source": "ElevenLabs sound generation",
+  "prompt": "Distant rolling thunder on a stormy night, deep rumble"
+ },
+ "witch_cackle": {
+  "file": "witch_cackle.mp3",
+  "duration": 2,
+  "hash": "3ed4a466c987",
+  "source": "ElevenLabs sound generation",
+  "prompt": "An old witch cackling wickedly, short theatrical laugh"
+ },
+ "hiss": {
+  "file": "hiss.mp3",
+  "duration": 1,
+  "hash": "49aa180e6ca6",
+  "source": "ElevenLabs sound generation",
+  "prompt": "A domestic cat hissing angrily: one sharp breathy defensive hiss with a short spit at the end, close microphone, no background"
+ },
+ "cat_pounce": {
+  "file": "cat_pounce.mp3",
+  "duration": 0.88,
+  "hash": "be819f1b52de",
+  "source": "ElevenLabs sound generation",
+  "prompt": "A cat pouncing: a quick scrabble of claws on a wooden floor, a swift leap and a soft thump as it lands, close microphone, no background"
+ },
+ "cat_jump": {
+  "file": "cat_jump.mp3",
+  "duration": 0.6,
+  "hash": "d0d943545149",
+  "source": "ElevenLabs sound generation",
+  "prompt": "A cat jumping up: a light push-off of paws on a wooden floor and a soft airy whoosh, very short, close microphone, no background"
+ }
+}

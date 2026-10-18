@@ -1,0 +1,695 @@
+{
+ "G_CHASE_02": {
+  "file": "G_CHASE_02.mp3",
+  "speaker": "G",
+  "text": "I'LL TURN YOU INTO A RUG!",
+  "duration": 2.24,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "a4859eb8ee91"
+ },
+ "G_INTRO_01": {
+  "file": "G_INTRO_01.mp3",
+  "speaker": "G",
+  "text": "Black cats... Seven years of bad luck, they say.",
+  "duration": 4.56,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "4b59f82d605e"
+ },
+ "G_INTRO_02": {
+  "file": "G_INTRO_02.mp3",
+  "speaker": "G",
+  "text": "AH! I CAUGHT YOU! You're not leaving this house until I get my hands on you!",
+  "duration": 5.36,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "de2c799b5c3e"
+ },
+ "K_INTRO_01": {
+  "file": "K_INTRO_01.mp3",
+  "speaker": "K",
+  "text": "Sounds like a challenge.",
+  "duration": 2,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "ba9642a46611"
+ },
+ "K_FIRST_BREAK": {
+  "file": "K_FIRST_BREAK.mp3",
+  "speaker": "K",
+  "text": "Oh. That was expensive.",
+  "duration": 2.64,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "a1e35de730da"
+ },
+ "G_FIRST_BREAK": {
+  "file": "G_FIRST_BREAK.mp3",
+  "speaker": "G",
+  "text": "MY GOOD VASE! It survived three wars!",
+  "duration": 4.08,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "0663548cca3b"
+ },
+ "G_MEOW": {
+  "file": "G_MEOW.mp3",
+  "speaker": "G",
+  "text": "Don't you MEOW at me!",
+  "duration": 2.16,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "defd49645317"
+ },
+ "K_DISCOVERY": {
+  "file": "K_DISCOVERY.mp3",
+  "speaker": "K",
+  "text": "She breaks bigger things than I do.",
+  "duration": 2.64,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "c3cbe688c317"
+ },
+ "G_FIND": {
+  "file": "G_FIND.mp3",
+  "speaker": "G",
+  "text": "THERE you are!",
+  "duration": 1.28,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "d4a25aa77e55"
+ },
+ "G_SEARCH": {
+  "file": "G_SEARCH.mp3",
+  "speaker": "G",
+  "text": "I know you're in here, coal-dust devil...",
+  "duration": 3.52,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "7f602081b8ac"
+ },
+ "G_LOST": {
+  "file": "G_LOST.mp3",
+  "speaker": "G",
+  "text": "Come out, come out... I only want to scream.",
+  "duration": 4.32,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "37fd1642b751"
+ },
+ "G_THROW": {
+  "file": "G_THROW.mp3",
+  "speaker": "G",
+  "text": "CATCH THIS, YOU FLEA-BAG!",
+  "duration": 2.32,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "7dfeaefd8dbc"
+ },
+ "G_THROW_AXE": {
+  "file": "G_THROW_AXE.mp3",
+  "speaker": "G",
+  "text": "Stay. Very. Still.",
+  "duration": 4.32,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "4cd187ba5b71"
+ },
+ "G_MISS": {
+  "file": "G_MISS.mp3",
+  "speaker": "G",
+  "text": "That wall jumped in my way!",
+  "duration": 2.48,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "23133dc6fcd3"
+ },
+ "G_COLLATERAL": {
+  "file": "G_COLLATERAL.mp3",
+  "speaker": "G",
+  "text": "MY MOTHER'S CABINET! That's coming out of your allowance!",
+  "duration": 4.24,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "4c6f83a758eb"
+ },
+ "G_CLOCK": {
+  "file": "G_CLOCK.mp3",
+  "speaker": "G",
+  "text": "Grandfather's clock! YOU MADE ME DO THAT!",
+  "duration": 3.68,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "daa14506b181"
+ },
+ "G_CAUGHT": {
+  "file": "G_CAUGHT.mp3",
+  "speaker": "G",
+  "text": "AHA! Got you, you slippery little sofa stain!",
+  "duration": 4.4,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "0fdf67a826d2"
+ },
+ "G_MAX_RAGE": {
+  "file": "G_MAX_RAGE.mp3",
+  "speaker": "G",
+  "text": "I HAVE HAD ENOUGH OF THIS ENTIRE HOUSE!",
+  "duration": 3.04,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "b71da4c30dac"
+ },
+ "K_TAUNT": {
+  "file": "K_TAUNT.mp3",
+  "speaker": "K",
+  "text": "You should really try meditation.",
+  "duration": 2.32,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "74ddef2cfff1"
+ },
+ "K_CHASE": {
+  "file": "K_CHASE.mp3",
+  "speaker": "K",
+  "text": "She's getting her steps in.",
+  "duration": 2,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "91ae20dba3b9"
+ },
+ "K_DODGE": {
+  "file": "K_DODGE.mp3",
+  "speaker": "K",
+  "text": "Bit to the left, Grandma.",
+  "duration": 2.24,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "75899c1baabd"
+ },
+ "K_HIDE": {
+  "file": "K_HIDE.mp3",
+  "speaker": "K",
+  "text": "Stealth mode: furniture edition.",
+  "duration": 2.96,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "30e1c29870ad"
+ },
+ "K_CAUGHT": {
+  "file": "K_CAUGHT.mp3",
+  "speaker": "K",
+  "text": "Personal space, please.",
+  "duration": 2.08,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "414765d30203"
+ },
+ "K_COMBO": {
+  "file": "K_COMBO.mp3",
+  "speaker": "K",
+  "text": "Keep going. I think she's helping.",
+  "duration": 2.64,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "2e61916f3cdc"
+ },
+ "K_BIG": {
+  "file": "K_BIG.mp3",
+  "speaker": "K",
+  "text": "Okay. That one was impressive.",
+  "duration": 3.12,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "9254e4c66eaa"
+ },
+ "G_CHANDELIER": {
+  "file": "G_CHANDELIER.mp3",
+  "speaker": "G",
+  "text": "THE CHANDELIER! That was an HEIRLOOM!",
+  "duration": 4.08,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "78393bcf449c"
+ },
+ "K_CHANDELIER": {
+  "file": "K_CHANDELIER.mp3",
+  "speaker": "K",
+  "text": "Family heirlooms are so fragile.",
+  "duration": 2.88,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "508f1d7ab80b"
+ },
+ "G_KITCHEN": {
+  "file": "G_KITCHEN.mp3",
+  "speaker": "G",
+  "text": "My kitchen is ON FIRE! WHY is my kitchen on fire?!",
+  "duration": 5.2,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "c143bfe59909"
+ },
+ "K_KITCHEN": {
+  "file": "K_KITCHEN.mp3",
+  "speaker": "K",
+  "text": "Well. That escalated.",
+  "duration": 2.32,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "6c33fb4e1e26"
+ },
+ "G_FLOOR": {
+  "file": "G_FLOOR.mp3",
+  "speaker": "G",
+  "text": "THE FLOOR! That floor was LOAD-BEARING!",
+  "duration": 3.44,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "359e15753b04"
+ },
+ "K_FLOOR": {
+  "file": "K_FLOOR.mp3",
+  "speaker": "K",
+  "text": "Not anymore.",
+  "duration": 1.92,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "1e8f6c0ac071"
+ },
+ "K_BEFORE_FINAL": {
+  "file": "K_BEFORE_FINAL.mp3",
+  "speaker": "K",
+  "text": "Surely this is still my fault.",
+  "duration": 2.4,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "6114bcb88c59"
+ },
+ "G_FINAL_ATTACK": {
+  "file": "G_FINAL_ATTACK.mp3",
+  "speaker": "G",
+  "text": "THIS HOUSE IS BIG ENOUGH FOR ONE OF US!",
+  "duration": 2.96,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "ba02156bc067"
+ },
+ "G_OUTRO": {
+  "file": "G_OUTRO.mp3",
+  "speaker": "G",
+  "text": "I KNEW that cat was bad luck!",
+  "duration": 2.72,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "7db83e527134"
+ },
+ "K_OUTRO": {
+  "file": "K_OUTRO.mp3",
+  "speaker": "K",
+  "text": "I barely lifted a paw.",
+  "duration": 2.08,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "15ed5f7c93d1"
+ },
+ "G_GLASS": {
+  "file": "G_GLASS.mp3",
+  "speaker": "G",
+  "text": "MY CONSERVATORY! I raised those petunias from SEEDS!",
+  "duration": 4.8,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "0a790892c51d"
+ },
+ "K_GLASS": {
+  "file": "K_GLASS.mp3",
+  "speaker": "K",
+  "text": "Fresh air. You are welcome.",
+  "duration": 2.88,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "5071e58884c4"
+ },
+ "K_LEAP": {
+  "file": "K_LEAP.mp3",
+  "speaker": "K",
+  "text": "Nailed it. Obviously.",
+  "duration": 2.48,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "681a04cb9092"
+ },
+ "K_SKID": {
+  "file": "K_SKID.mp3",
+  "speaker": "K",
+  "text": "Brakes are more of a suggestion.",
+  "duration": 2.8,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "2a838ae8536c"
+ },
+ "K_STARTLE": {
+  "file": "K_STARTLE.mp3",
+  "speaker": "K",
+  "text": "I meant to do that.",
+  "duration": 1.76,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "ca606a9639d8"
+ },
+ "K_WINDOW": {
+  "file": "K_WINDOW.mp3",
+  "speaker": "K",
+  "text": "It was like that when I got here.",
+  "duration": 2.16,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "9dd90aa7c018"
+ },
+ "K_GROOM": {
+  "file": "K_GROOM.mp3",
+  "speaker": "K",
+  "text": "This fur does not maintain itself.",
+  "duration": 2.88,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "421b3fadf38b"
+ },
+ "G_WINDOW": {
+  "file": "G_WINDOW.mp3",
+  "speaker": "G",
+  "text": "THOSE WINDOWS WERE ORIGINAL!",
+  "duration": 2.4,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "2e25735f34d0"
+ },
+ "G_HISS": {
+  "file": "G_HISS.mp3",
+  "speaker": "G",
+  "text": "Did you just HISS at me?!",
+  "duration": 2.16,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "4254fc5628ce"
+ },
+ "G_TEAPARTY": {
+  "file": "G_TEAPARTY.mp3",
+  "speaker": "G",
+  "text": "My tea party! The good china, AGAIN!",
+  "duration": 5.36,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "f4348285d3b6"
+ },
+ "K_IDLE_BORED": {
+  "file": "K_IDLE_BORED.mp3",
+  "speaker": "K",
+  "text": "Is anyone going to throw something? No? Fine.",
+  "duration": 4.64,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "cc455d5709ac"
+ },
+ "K_IDLE_SCIENCE": {
+  "file": "K_IDLE_SCIENCE.mp3",
+  "speaker": "K",
+  "text": "I could knock something over. For science.",
+  "duration": 3.28,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "999d481d4033"
+ },
+ "K_IDLE_TIDY": {
+  "file": "K_IDLE_TIDY.mp3",
+  "speaker": "K",
+  "text": "This house is far too tidy.",
+  "duration": 2.56,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "50a6ffa54750"
+ },
+ "K_IDLE_GRANNY": {
+  "file": "K_IDLE_GRANNY.mp3",
+  "speaker": "K",
+  "text": "Grandma? I'm being VERY bad over here.",
+  "duration": 3.04,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "c58566c38d86"
+ },
+ "K_IDLE_SNIFF": {
+  "file": "K_IDLE_SNIFF.mp3",
+  "speaker": "K",
+  "text": "Lavender. Mothballs. And fear.",
+  "duration": 4.88,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "f926ab107f5a"
+ },
+ "K_IDLE_TAIL": {
+  "file": "K_IDLE_TAIL.mp3",
+  "speaker": "K",
+  "text": "Who keeps FOLLOWING me?!",
+  "duration": 1.84,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "59ef353b51f8"
+ },
+ "K_IDLE_TAIL2": {
+  "file": "K_IDLE_TAIL2.mp3",
+  "speaker": "K",
+  "text": "Nobody saw that.",
+  "duration": 2,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "24fed8291f7b"
+ },
+ "K_IDLE_NUDGE": {
+  "file": "K_IDLE_NUDGE.mp3",
+  "speaker": "K",
+  "text": "It was in my way.",
+  "duration": 1.52,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "9f7b2360f934"
+ },
+ "K_IDLE_STRETCH": {
+  "file": "K_IDLE_STRETCH.mp3",
+  "speaker": "K",
+  "text": "Ahh... right. Destruction.",
+  "duration": 4.72,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "2005dd502aca"
+ },
+ "K_IDLE_LOOK": {
+  "file": "K_IDLE_LOOK.mp3",
+  "speaker": "K",
+  "text": "So many breakables. So little time.",
+  "duration": 3.52,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "8dc6e291cd84"
+ },
+ "K_IDLE_SIT": {
+  "file": "K_IDLE_SIT.mp3",
+  "speaker": "K",
+  "text": "I'll just sit here. Menacingly.",
+  "duration": 3.92,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "af632a53401f"
+ },
+ "K_IDLE_LOAF": {
+  "file": "K_IDLE_LOAF.mp3",
+  "speaker": "K",
+  "text": "Five minutes. Then chaos.",
+  "duration": 3.68,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "961d4c50589a"
+ },
+ "K_CAULDRON": {
+  "file": "K_CAULDRON.mp3",
+  "speaker": "K",
+  "text": "Needs salt.",
+  "duration": 1.6,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "ed22fa5b103b"
+ },
+ "K_STUNNED": {
+  "file": "K_STUNNED.mp3",
+  "speaker": "K",
+  "text": "Three Grandmas. That's... worse.",
+  "duration": 3.76,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "b6677207cedd"
+ },
+ "H_CHAND": {
+  "file": "H_CHAND.mp3",
+  "speaker": "K",
+  "text": "One old rope holds that chandelier. Tied off on the gallery.",
+  "duration": 4.4,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "e91853feb75e"
+ },
+ "H_WARD": {
+  "file": "H_WARD.mp3",
+  "speaker": "K",
+  "text": "A huge wardrobe on a cracked floor. Someone should test that.",
+  "duration": 4.64,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "4b4845346422"
+ },
+ "H_LAMP": {
+  "file": "H_LAMP.mp3",
+  "speaker": "K",
+  "text": "An oil lamp over a wooden counter, next to a stove.",
+  "duration": 3.84,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "2e29436cfcf3"
+ },
+ "H_STOVE": {
+  "file": "H_STOVE.mp3",
+  "speaker": "K",
+  "text": "If Grandma smashed this stove, it would NOT be my fault.",
+  "duration": 4.08,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "224f517ec688"
+ },
+ "H_GLASS": {
+  "file": "H_GLASS.mp3",
+  "speaker": "K",
+  "text": "Iron chandelier. Glass roof. One rope by the door.",
+  "duration": 5.04,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "3256cf7958c0"
+ },
+ "H_BRACE": {
+  "file": "H_BRACE.mp3",
+  "speaker": "K",
+  "text": "The last support. Make her furious, then step aside.",
+  "duration": 4.64,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "5bc1b0013115"
+ },
+ "K_EMBER": {
+  "file": "K_EMBER.mp3",
+  "speaker": "K",
+  "text": "Oil on a wooden floor. What could possibly go wrong?",
+  "duration": 4.24,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "89c009b70728"
+ },
+ "K_SPARKS": {
+  "file": "K_SPARKS.mp3",
+  "speaker": "K",
+  "text": "Sparks from the stove. Now, if that oil lamp fell...",
+  "duration": 4.88,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "cd73a8959eb8"
+ },
+ "K_PRIMED_ROPE": {
+  "file": "K_PRIMED_ROPE.mp3",
+  "speaker": "K",
+  "text": "One good hit and that rope is history.",
+  "duration": 3.12,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "9ab1ec5341ed"
+ },
+ "K_PRIMED_GLASS": {
+  "file": "K_PRIMED_GLASS.mp3",
+  "speaker": "K",
+  "text": "Frayed. Now it just needs Grandma.",
+  "duration": 3.44,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "dcdb69b85d19"
+ },
+ "K_PRIMED_FLOOR": {
+  "file": "K_PRIMED_FLOOR.mp3",
+  "speaker": "K",
+  "text": "That floor runs on pure optimism.",
+  "duration": 2.96,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "6a59843b40ac"
+ },
+ "K_FRAY": {
+  "file": "K_FRAY.mp3",
+  "speaker": "K",
+  "text": "It's working. Again!",
+  "duration": 1.92,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "f083151a0e22"
+ },
+ "K_THROW1": {
+  "file": "K_THROW1.mp3",
+  "speaker": "K",
+  "text": "Wait. Is she going to THROW that?",
+  "duration": 2.48,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "c6d467d9d388"
+ },
+ "K_MISSED": {
+  "file": "K_MISSED.mp3",
+  "speaker": "K",
+  "text": "Missed me.",
+  "duration": 1.28,
+  "model": "eleven_v4",
+  "voice": "JBFqnCBsd6RMkjVDRZzb",
+  "hash": "830e7115bcb0"
+ },
+ "G_CAULDRON": {
+  "file": "G_CAULDRON.mp3",
+  "speaker": "G",
+  "text": "Into the pot with you! Black cat stew, just like Mother made!",
+  "duration": 6.56,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "21d7a30d0a47"
+ },
+ "G_STUN": {
+  "file": "G_STUN.mp3",
+  "speaker": "G",
+  "text": "BULLSEYE! Got you now!",
+  "duration": 2.8,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "3da950652d27"
+ },
+ "G_RETORT": {
+  "file": "G_RETORT.mp3",
+  "speaker": "G",
+  "text": "Oh, I'll get you, furball!",
+  "duration": 3.04,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "cbc6f1b47b9a"
+ },
+ "G_PANT": {
+  "file": "G_PANT.mp3",
+  "speaker": "G",
+  "text": "Come back here, you little... omen!",
+  "duration": 4.08,
+  "model": "eleven_v4",
+  "voice": "JSIqdqOB9ZIcrBFOti5d",
+  "hash": "785a6aa57169"
+ }
+}

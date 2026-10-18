@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.cache/
+.cache-audio/
+*.blend1
+__pycache__/
+.DS_Store
+work/
+test-results/
+playwright-report/
+*.log
+# raw source assets (licensed packs; keep out of version control)
+assets_inbox/**
+!assets_inbox/README.md
+
+# generated submission media (regenerate with scripts/capture_trailer.mjs)
+submission/video/
+submission/*.zip

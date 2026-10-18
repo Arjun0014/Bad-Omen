@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BAD OMEN — presentation</title>
+<style>
+  @font-face { font-family: 'Creepster'; src: url('../../src/assets/fonts/Creepster-Regular.ttf'); }
+  @font-face { font-family: 'Fell'; src: url('../../src/assets/fonts/IMFellEnglish-Regular.ttf'); }
+  @font-face { font-family: 'Fell'; font-style: italic; src: url('../../src/assets/fonts/IMFellEnglish-Italic.ttf'); }
+  :root {
+    --bg: #0e0a14; --panel: #1a1324; --panel2: #221a2f; --line: #3a2d4d;
+    --amber: #ffae1a; --bone: #f3ead8; --muted: #b9aecb; --purple: #9b72ff; --green: #62e27f; --red: #ff6a4d;
+  }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); }
+  body { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; color: var(--bone); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 1280px; height: 720px; position: relative; overflow: hidden; background: radial-gradient(1200px 700px at 85% 0%, #1d1430 0%, var(--bg) 60%); page-break-after: always; break-after: page; }
+  .page:last-child { page-break-after: auto; break-after: auto; }
+  .kicker { font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--amber); font-weight: 600; }
+  h1 { font-family: 'Fell', Georgia, serif; font-weight: 400; color: var(--bone); line-height: 1.02; }
+  h2 { font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--amber); font-weight: 700; margin-bottom: 8px; }
+  h3 { font-family: 'Fell', Georgia, serif; font-weight: 400; font-size: 21px; color: var(--amber); line-height: 1.05; margin-bottom: 4px; }
+  p, li { font-size: 13px; line-height: 1.42; color: var(--bone); }
+  .muted { color: var(--muted); }
+  b, strong { color: var(--amber); font-weight: 600; }
+  .footer { position: absolute; left: 40px; right: 40px; bottom: 16px; display: flex; justify-content: space-between; font-size: 10.5px; color: var(--muted); letter-spacing: 0.04em; }
+
+  /* ---------- page 1: who's the real bad omen? ---------- */
+  .p1 .portrait { position: absolute; left: 0; top: 0; width: 470px; height: 720px; background: url('../deck/img/portrait.jpg') 44% 40% / cover no-repeat; }
+  .p1 .portrait::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(14,10,20,0) 55%, rgba(14,10,20,0.85) 88%, var(--bg) 100%), linear-gradient(0deg, rgba(14,10,20,0.92) 0%, rgba(14,10,20,0) 38%); }
+  .p1 .quotes { position: absolute; left: 30px; bottom: 44px; width: 390px; z-index: 2; }
+  .p1 .quote { font-family: 'Fell', Georgia, serif; font-size: 22px; line-height: 1.15; margin-bottom: 10px; }
+  .p1 .quote span { display: block; font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; margin-top: 3px; }
+  .p1 .quote.g { color: #ffd2c7; } .p1 .quote.g span { color: var(--red); }
+  .p1 .quote.k { color: var(--bone); } .p1 .quote.k span { color: var(--amber); }
+  .p1 .content { position: absolute; left: 488px; top: 30px; right: 40px; }
+  .p1 .logo { height: 54px; display: block; margin-bottom: 10px; }
+  .p1 h1 { font-size: 46px; margin: 6px 0 8px; }
+  .p1 .lead { font-size: 15.5px; line-height: 1.42; max-width: 740px; }
+  .p1 .lead b { font-weight: 700; }
+  .twist { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 16px; }
+  .beat { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px 12px; position: relative; }
+  .beat .n { position: absolute; right: 12px; top: 6px; font-family: 'Creepster', cursive; font-size: 30px; color: rgba(255,174,26,0.22); }
+  .beat p { font-size: 12.4px; }
+  .rule { margin-top: 12px; border: 1px solid rgba(255,174,26,0.55); background: linear-gradient(90deg, rgba(255,174,26,0.12), rgba(255,174,26,0.03)); border-radius: 10px; padding: 9px 14px; font-size: 13px; line-height: 1.4; }
+  .rule strong { font-weight: 700; }
+  .mascot { margin-top: 14px; }
+  .cards4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .card { background: var(--panel2); border-radius: 10px; padding: 10px 12px; border-top: 3px solid var(--purple); }
+  .card h4 { font-size: 13px; font-weight: 700; color: var(--bone); margin-bottom: 3px; }
+  .card p { font-size: 11.6px; line-height: 1.38; color: #e6dccb; }
+  .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: -1px; margin-right: 2px; border: 1px solid #6b5a80; }
+
+  /* ---------- page 2: how it plays ---------- */
+  .p2 .head { position: absolute; left: 40px; top: 28px; right: 40px; }
+  .p2 h1 { font-size: 40px; margin: 4px 0 4px; }
+  .p2 .lead { font-size: 14px; max-width: 1060px; }
+  .loop { position: absolute; left: 40px; right: 40px; top: 150px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .step { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; position: relative; }
+  .step img { display: block; width: 100%; height: 150px; object-fit: cover; }
+  .step .txt { padding: 8px 11px 10px; }
+  .step .num { position: absolute; left: 8px; top: 8px; width: 26px; height: 26px; border-radius: 50%; background: var(--amber); color: #1a1100; font-weight: 800; font-size: 14px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 6px rgba(0,0,0,0.6); }
+  .step h4 { font-family: 'Fell', Georgia, serif; font-weight: 400; font-size: 19px; color: var(--amber); line-height: 1.05; margin-bottom: 2px; }
+  .step p { font-size: 11.8px; line-height: 1.38; }
+  .step:not(:last-child)::after { content: '›'; position: absolute; right: -14px; top: 58px; font-size: 30px; color: var(--amber); z-index: 3; }
+  .lower { position: absolute; left: 40px; right: 40px; top: 410px; display: grid; grid-template-columns: 1.15fr 1fr 1fr; gap: 16px; }
+  .box { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 11px 14px; }
+  .disasters { list-style: none; margin: 0 0 6px; }
+  .disasters li { font-size: 12.2px; line-height: 1.5; }
+  .disasters li em { font-family: 'Fell', Georgia, serif; font-style: normal; font-size: 15px; color: var(--bone); }
+  .endings { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 4px; }
+  .endings figure img { width: 100%; height: 66px; object-fit: cover; border-radius: 6px; display: block; }
+  .endings figcaption { font-size: 10.6px; line-height: 1.3; color: var(--muted); margin-top: 3px; }
+  .feat { list-style: none; }
+  .feat li { font-size: 12.1px; line-height: 1.38; padding-left: 13px; position: relative; margin-bottom: 4px; }
+  .feat li::before { content: ''; position: absolute; left: 0; top: 6px; width: 6px; height: 6px; border-radius: 50%; background: var(--amber); }
+  .keys { display: grid; grid-template-columns: auto 1fr; gap: 2px 8px; font-size: 11.6px; line-height: 1.32; margin-top: 2px; }
+  .keys .k { color: var(--amber); font-weight: 700; white-space: nowrap; }
+  .p2 .play { position: absolute; left: 40px; right: 40px; bottom: 50px; font-size: 13px; color: var(--bone); }
+  .p2 .play b { font-weight: 700; }
+  .credits { position: absolute; left: 40px; right: 40px; bottom: 16px; font-size: 9.6px; color: var(--muted); line-height: 1.35; }
+</style>
+</head>
+<body>
+
+<!-- =============================== PAGE 1 =============================== -->
+<section class="page p1">
+  <div class="portrait"></div>
+  <div class="quotes">
+    <div class="quote g">“I KNEW that cat was bad luck!”<span>Grandma</span></div>
+    <div class="quote k">“I barely lifted a paw.”<span>Kömür</span></div>
+  </div>
+  <div class="content">
+    <img class="logo" src="../deck/img/logo.png" alt="BAD OMEN">
+    <div class="kicker">Game Jam Europe 2026 · starring Kömür the black cat</div>
+    <h1>Who’s the real bad omen?</h1>
+    <p class="lead">A superstitious witch-grandma is sure the black cat in her cottage is bad luck. In <b>BAD OMEN</b> she is
+      right about the disasters and wrong about the culprit: Kömür never brings her house down. <b>Every big disaster is thrown by her own hand.</b></p>
+
+    <div class="twist">
+      <div class="beat"><span class="n">1</span><h3>The blame</h3>
+        <p>A black cat strolls into her house, and Grandma already knows whose fault the next disaster will be. Every broken plate: “That cat!”</p></div>
+      <div class="beat"><span class="n">2</span><h3>The bait</h3>
+        <p>Kömür is just a cat. He can’t snap a rope or bring down a roof. He knocks the china about, meows, taunts and dodges, and waits for her temper to go.</p></div>
+      <div class="beat"><span class="n">3</span><h3>The backfire</h3>
+        <p>Her own pans, axes and pitchforks snap the chandelier rope, light the stove, crack the floor, shatter the glass roof and knock out the last roof brace.</p></div>
+    </div>
+
+    <div class="rule"><strong>The rules tell the joke:</strong> the house’s weak points break only under Grandma’s throws, and every
+      disaster she causes scores <strong>GRANNY DID IT ×2</strong>. The more she believes he is bad luck, the worse her own luck gets.</div>
+
+    <div class="mascot">
+      <h2>How Kömür is in the game</h2>
+      <div class="cards4">
+        <div class="card"><h4>He looks like Kömür</h4>
+          <p><span class="swatch" style="background:#111"></span> black coat, <span class="swatch" style="background:#f1ece2"></span> white paws, chest and tail tip,
+            <span class="swatch" style="background:#ffb32a"></span> amber eyes: the base cat recoloured into the jam’s mascot, with 38 new animations.</p></div>
+        <div class="card"><h4>He plays like a cat</h4>
+          <p>You are Kömür: walk, gallop, drift round corners, leap onto tables and mantels, pounce, swipe, meow, hide, sneak and scratch.</p></div>
+        <div class="card"><h4>He talks like one</h4>
+          <p>A dry inner monologue in 49 voiced lines, against an increasingly unhinged Grandma (28 lines), all subtitled.</p></div>
+        <div class="card"><h4>He lives like one</h4>
+          <p>Leave him alone and he licks his paw, sits, settles into a loaf, or nudges something off the furniture.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer" style="left: 488px;"><span>BAD OMEN · team Fractured Sanity (Arjun Vinod) · Game Jam Europe 2026</span><span>1 / 2</span></div>
+</section>
+
+<!-- =============================== PAGE 2 =============================== -->
+<section class="page p2">
+  <div class="head">
+    <div class="kicker">How it plays · team Fractured Sanity</div>
+    <h1>Don’t break the house. Make her break it.</h1>
+    <p class="lead">Third person, in the browser: one cat, a two-storey wooden cottage, a glass-roofed conservatory and a walled
+      garden, with about 375 breakable things that stay broken.</p>
+  </div>
+
+  <div class="loop">
+    <div class="step"><img src="../screenshots/03_chain_reaction.jpg" alt=""><div class="num">1</div><div class="txt">
+      <h4>Make mischief</h4><p>Swipe the good china off the sideboard, shred the curtains, set off chain reactions. Every crash raises her rage.</p></div></div>
+    <div class="step"><img src="../deck/img/bait.jpg" alt=""><div class="num">2</div><div class="txt">
+      <h4>Bait her</h4><p>Taunt her with a meow, then wait beside a glowing weak spot: a chandelier rope, the stove, the roof brace.</p></div></div>
+    <div class="step"><img src="../screenshots/04_the_last_supper.jpg" alt=""><div class="num">3</div><div class="txt">
+      <h4>Dodge the throw</h4><p>Every throw is telegraphed by a glowing arc. Jump clear at the last moment and her throw hits the weak spot instead.</p></div></div>
+    <div class="step"><img src="../screenshots/07_the_glass_house.jpg" alt=""><div class="num">4</div><div class="txt">
+      <h4>The house pays</h4><p>A cinematic cutaway, GRANNY DID IT ×2, and a house that stays wrecked. Her rage climbs, her throws get heavier.</p></div></div>
+  </div>
+
+  <div class="lower">
+    <div class="box">
+      <h2>Five disasters, two endings</h2>
+      <ul class="disasters">
+        <li><em>The Last Supper</em> · <em>The Kitchen Curse</em> · <em>The Bedroom Below</em> · <em>The Glass House</em> · <em>The Final Straw</em>, plus four bonus disasters</li>
+      </ul>
+      <div class="endings">
+        <figure><img src="../screenshots/09_the_end_of_the_house.jpg" alt=""><figcaption>Bring the roof down: the sun comes up over what’s left of her house.</figcaption></figure>
+        <figure><img src="../screenshots/11_into_the_cauldron.jpg" alt=""><figcaption>Get greedy and she catches him: into the cauldron (“Needs salt.”).</figcaption></figure>
+      </div>
+    </div>
+    <div class="box">
+      <h2>What’s in it</h2>
+      <ul class="feat">
+        <li>Physics destruction with persistent debris and chain-reaction combos up to ×5</li>
+        <li>Grandma: sight and hearing, chases, telegraphed throws, rage phases up to MELTDOWN</li>
+        <li>77 voiced, subtitled lines · 16 achievements</li>
+        <li>Music that follows the chase: a creepy waltz, chase music, a meltdown, every change on the beat</li>
+        <li>Keyboard and mouse, or touch controls on a phone in landscape</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2>Built with</h2>
+      <p style="font-size:12px; line-height:1.38;">three.js (WebGL2) · Rapier physics (WASM) · a headless Blender pipeline for the
+        mascot’s recolour and procedural cat animations · voices and effects generated with ElevenLabs at build time</p>
+      <h2 style="margin-top:9px;">Controls</h2>
+      <div class="keys">
+        <span class="k">WASD · mouse</span><span>move · look</span>
+        <span class="k">Shift / Space</span><span>gallop / leap</span>
+        <span class="k">Click / Right-click</span><span>swipe / pounce</span>
+        <span class="k">F / E / C</span><span>meow · hide (hold: scratch) · sneak</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="play" id="play"><b>Plays in the browser:</b> on a desktop with keyboard and mouse, or on a phone or tablet in landscape.</div>
+  <div class="credits">Kömür’s base model: “Somali Cat Animated ver 1.2” by DreamNoms (CC BY 4.0), recoloured and re-animated · Grandma:
+    “Goblin D Shareyko” with Adobe Mixamo animations · wood textures: Poly Haven (CC0) · fonts: Creepster, IM FELL English (SIL OFL) ·
+    music: “Halloween Suspense Horror Halloween Waltz” by Bombinsound (Pixabay); chase and meltdown music, voices and effects: ElevenLabs</div>
+</section>
+
+</body>
+</html>

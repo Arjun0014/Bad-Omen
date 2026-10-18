@@ -1,0 +1,29 @@
+{
+  "name": "bad-omen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BAD OMEN — a third-person cat chaos physics comedy (Game Jam Europe 2026)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "test": "vitest run",
+    "test:smoke": "node scripts/browser_smoke.mjs",
+    "assets:blender": "node scripts/build_assets.mjs",
+    "voices": "node scripts/generate_voiceover.mjs",
+    "check:secrets": "node scripts/check_secrets.mjs",
+    "test:input": "node scripts/input_test.mjs",
+    "test:qa": "node scripts/qa_probe.mjs",
+    "package": "vite build && python scripts/package_web.py"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.21.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  }
+}

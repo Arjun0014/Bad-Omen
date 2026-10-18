@@ -1,0 +1,19 @@
+BAD OMEN ships the Basis Universal transcoder (assets/basis/basis_transcoder.js + .wasm, from the three.js
+examples) to decode its KTX2 textures. Basis Universal is licensed under the Apache License, Version 2.0:
+https://www.apache.org/licenses/LICENSE-2.0
+
+NOTICE (reproduced as required by Apache License 2.0, section 4(d)):
+
+Basis Universal(TM) Supercompressed GPU Texture Compression Library
+
+Copyright (c) 2016-2026 Binomial LLC.
+All rights reserved except as granted under the Apache 2.0 license
+(https://github.com/BinomialLLC/basis_universal/blob/master/LICENSE).
+"Basis Universal" is a trademark of Binomial LLC.
+
+The documents in the Basis Universal wiki, and the Basis Universal library,
+example, and tool source code, fall under the Apache 2.0 license, unless
+otherwise explicitly indicated.
+
+Redistributions or derivative works must include a readable copy of the
+attribution notices from this NOTICE file (see Apache License 2.0 section 4(d)).

@@ -1,0 +1,74 @@
+{
+ "clips": {
+  "Caught": 0.375,
+  "ChaseTail": 0.5,
+  "Climb": 0.5417,
+  "CrouchIdle": 1.0,
+  "Fall": 0.5,
+  "Gallop": 1.0,
+  "Groom": 1.7083,
+  "Hiss": 0.9583,
+  "Idle": 2.0,
+  "JumpAir": 0.5,
+  "JumpDown": 0.375,
+  "JumpPrep": 0.4583,
+  "JumpTakeoff": 0.2917,
+  "JumpUp": 0.4583,
+  "LandHeavy": 0.4583,
+  "LandOn": 0.3333,
+  "LandSoft": 0.25,
+  "LieDown": 0.7083,
+  "Loaf": 2.0,
+  "LookAround": 2.9583,
+  "Meow": 0.9583,
+  "Nudge": 0.9583,
+  "Pounce": 0.625,
+  "Scrabble": 0.5,
+  "Scratch": 0.5,
+  "ShakeOff": 0.625,
+  "SitDown": 1.5,
+  "SittingIdle": 2.0,
+  "Skid": 0.3333,
+  "SmugSit": 2.0,
+  "Sneak": 1.0,
+  "Sniff": 1.4583,
+  "StandUp": 1.5,
+  "Startle": 0.625,
+  "Stretch": 1.7083,
+  "Stumble": 0.5,
+  "Swipe": 0.375,
+  "SwipeL": 0.375,
+  "Trot": 1.0,
+  "TurnL": 0.4583,
+  "TurnR": 0.4583,
+  "Walk": 1.0
+ },
+ "fps": 24,
+ "gaits": {
+  "Gallop": {
+   "cycle_s": 1.0,
+   "frames": 24,
+   "speed_u": 11.25
+  },
+  "Scrabble": {
+   "cycle_s": 0.5,
+   "frames": 12,
+   "speed_u": 12.6667
+  },
+  "Sneak": {
+   "cycle_s": 1.0,
+   "frames": 24,
+   "speed_u": 3.6111
+  },
+  "Trot": {
+   "cycle_s": 1.0,
+   "frames": 24,
+   "speed_u": 6.0
+  },
+  "Walk": {
+   "cycle_s": 1.0,
+   "frames": 24,
+   "speed_u": 5.1667
+  }
+ }
+}
