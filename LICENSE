@@ -19,9 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----------------------------------------------------------------------------
-This license covers the game's source code. Third-party assets in this
-repository (the base cat model, Grandma's character and animations, textures,
-fonts, music, voices and sound effects) keep their own licenses and terms:
-see CREDITS.md and the "Licenses" section of README.md.
